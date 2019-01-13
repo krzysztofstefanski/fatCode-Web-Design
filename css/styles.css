@@ -10,7 +10,7 @@ body {
 /*Global*/
 .container {
     width: 80%;
-    margin: auto;
+    margin:auto;
     overflow: hidden;
 }
 ul {
@@ -72,21 +72,30 @@ header nav {
     margin-bottom:10px
 }
 
-header .colorOrange ,header .current  {
+header .first-word ,header .current  {
     color:orange;
     font-weight: bold;
     
 }
+
 header a:hover{
     color:orange;
     font-weight: bold;
+}
+header #logo img{
+    width:90px;
+    height:90px;
+    border-radius:55%;
+    margin-top:10;
+    float:left;
+
 }
 /*SHOWCASE*/
 #showcase{
     min-height:400px;
     background:url('../img/showcase.JPG')no-repeat 0 -900px;
     text-align:center;
-    color:floralwhite
+    color:floralwhite;
 }
 #showcase h1{
     margin-top: 100px;
