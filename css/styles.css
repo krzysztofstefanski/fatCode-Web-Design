@@ -10,8 +10,35 @@ body {
 /*Global*/
 .container {
     width: 80%;
-    margin: auto;
+    margin:auto;
     overflow: hidden;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.btn-submit {
+    height:30px;
+background: #e8491d;
+border:0;
+padding-left:20px;
+padding-right:20px;
+color:#ffffff;
+border-radius:15%;
+
+}
+.btn-submit:hover{
+    color:orange;
+}
+
+.dark{
+    padding:15px;
+    background:#354248;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 header {
@@ -30,17 +57,118 @@ header a {
 
 }
 
-header ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+
 
 }
 
-header li {
+header #branding {
+    float: left;
+}
 
-    display: inline;
-    padding:20px 0 20px 0;
+header #branding h1 {
+    margin: 0;
 
 
+
+}
+
+header nav {
+    float: right;
+    margin-bottom:10px
+}
+
+header .first-word ,header .current  {
+    color:orange;
+    font-weight: bold;
+
+    
+}
+
+header a:hover{
+    color:orange;
+    font-weight: bold;
+}
+header #logo img{
+    width:90px;
+    height:90px;
+    border-radius:55%;
+    margin-top:10;
+    float:left;
+
+}
+/*SHOWCASE*/
+#showcase{
+    min-height:400px;
+    background:url('../img/showcase.JPG')no-repeat 0 -900px;
+    text-align:center;
+    color:floralwhite;
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+#showcase p{
+    font-size:20px;
+}
+#newsletter{
+    padding:15px;
+    color:#ffffff;
+    background: #35424a;
+}
+#newsletter h1{
+  float:left;  
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+
+}
+#newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+}
+/*BOXES*/
+
+#boxes{
+margin-top:20px;
+}
+
+#boxes .box{
+    float:left;
+    width:30%;
+    padding:10px;
+}
+
+#boxes .box img{
+    width:90px;
+ 
+}
+
+/*sidebar*/
+aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+
+}
+
+/*main-col*/
+article#main-col{
+    float:left;
+    width:65%;
+}
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    border-top:3px floralwhite solid;
+    color:#ffffff;
+    background-color: #e8491d;
+    text-align: center;
 }
